@@ -27,21 +27,21 @@ h2 + p {
 .header {
   width: 100%;
 }
-.header .header__top__mainvsl img {
+.header__top__main-visual img {
   width: 100%;
 }
-.header .header__bottom {
+.header__bottom {
   display: flex;
   justify-content: space-between;
   padding: 28px 26px 28px 30px;
   align-items: center;
 }
-.header .header__bottom .header__bottom__menu ul {
+.header__bottom__menu ul {
   display: flex;
   font-size: 17px;
   font-weight: bold;
 }
-.header .header__bottom .header__bottom__menu ul li:not(:last-child) {
+.header__bottom__menu ul li:not(:last-child) {
   margin-right: 40px;
 }
 

@@ -25,25 +25,26 @@ h2 + p {
   color: #3B4043;
 }
 .header {
+width: 100%;
+&__top__main-visual img {
   width: 100%;
-  .header__top__mainvsl img {
-    width: 100%;
+}
+&__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 26px 28px 30px;
+  align-items: center;
+  &__menu ul {
+  display: flex;
+  font-size: 17px;
+  font-weight: bold;
+  li:not(:last-child){
+    margin-right: 40px;
   }
-  .header__bottom {
-    display: flex;
-    justify-content: space-between;
-    padding: 28px 26px 28px 30px;
-    align-items: center;
-    .header__bottom__menu ul {
-      display: flex;
-      font-size: 17px;
-      font-weight: bold;
-      li:not(:last-child){
-        margin-right: 40px;
-      }
-    }
   }
 }
+}
+
 
 .header__bottom__menu ul li.contact__button a {
   border-radius: 30px;
