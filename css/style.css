@@ -383,4 +383,8 @@ h2 + p {
 
 .recruit-content {
   background-color: #f9f9f9;
+}
+.recruit-content__sub-text {
+  margin: 0 auto;
+  max-width: 790px;
 }/*# sourceMappingURL=style.css.map */
