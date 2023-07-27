@@ -391,14 +391,22 @@ h2 + p {
 .recruit-content__sentense {
   padding-top: 60px;
 }
-.recruit-content__list {
+.recruit-content__inner {
   margin: 60px auto 0;
   max-width: 956px;
+}
+.recruit-content__inner-list {
   display: flex;
   justify-content: space-between;
 }
-.recruit-content__list-items {
+.recruit-content__inner-list-items {
   width: 466px;
   background-color: #ffffff;
   padding: 30px;
+}
+.recruit-content__inner-list-items-title {
+  font-size: 24px;
+}
+.recruit-content__inner-list-items-sentense {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

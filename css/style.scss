@@ -420,19 +420,21 @@ h2 + p {
     padding-top: 60px;
   }
   &__inner {
-  }
-  &__list {
     margin: 60px auto 0;
     max-width: 956px;
-    display: flex;
-    justify-content: space-between;
-    &-items {
-      width: 466px;
-      background-color: #ffffff;
-      padding: 30px;
-      &-title {
-      }
-      &-sentense {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      &-items {
+        width: 466px;
+        background-color: #ffffff;
+        padding: 30px;
+        &-title {
+          font-size: 24px;
+        }
+        &-sentense {
+          margin-top: 10px;
+        }
       }
     }
   }
