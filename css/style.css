@@ -387,4 +387,18 @@ h2 + p {
 .recruit-content__sub-text {
   margin: 0 auto;
   max-width: 790px;
+}
+.recruit-content__sentense {
+  padding-top: 60px;
+}
+.recruit-content__list {
+  margin: 60px auto 0;
+  max-width: 956px;
+  display: flex;
+  justify-content: space-between;
+}
+.recruit-content__list-items {
+  width: 466px;
+  background-color: #ffffff;
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */

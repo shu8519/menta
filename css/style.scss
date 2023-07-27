@@ -416,4 +416,24 @@ h2 + p {
     margin: 0 auto;
     max-width: 790px;
   }
+  &__sentense {
+    padding-top: 60px;
+  }
+  &__inner {
+  }
+  &__list {
+    margin: 60px auto 0;
+    max-width: 956px;
+    display: flex;
+    justify-content: space-between;
+    &-items {
+      width: 466px;
+      background-color: #ffffff;
+      padding: 30px;
+      &-title {
+      }
+      &-sentense {
+      }
+    }
+  }
 }
