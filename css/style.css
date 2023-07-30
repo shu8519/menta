@@ -73,7 +73,6 @@ h2 + p {
 }
 .service__container {
   width: 100%;
-  position: relative;
   margin-top: 110px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /*列トラックを3列表示させる*/
