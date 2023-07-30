@@ -44,7 +44,7 @@ h2 + p {
   font-size: 17px;
   font-weight: bold;
 }
-.header__bottom-menu-list-item--contact-button {
+.header__bottom-menu-list-item--contact-button a {
   border-radius: 30px;
   border: 2px solid #202020;
   padding: 12px 30px 16px;
