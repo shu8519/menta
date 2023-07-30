@@ -210,7 +210,7 @@ h2 + p {
 }
 
 .title__text-company,
-.title__case,
+.title__text-case,
 .title__text-service,
 .title__text-recruit,
 .title__text-contact {
@@ -234,7 +234,7 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  background: no-repeat url(../img/company_title.png) center;
+  background: no-repeat url(../img/case_title.png) center;
   height: 93px;
   width: 100%;
   z-index: -1;
@@ -245,7 +245,7 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  background: no-repeat url(../img/company_title.png) center;
+  background: no-repeat url(../img/service_title.png) center;
   height: 93px;
   width: 100%;
   z-index: -1;
@@ -331,7 +331,7 @@ h2 + p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 82px;
-  column-gap: 82px;
+       column-gap: 82px;
   row-gap: 60px;
 }
 .service-content__inner-list {
@@ -409,4 +409,4 @@ h2 + p {
 }
 .recruit-content__inner-list-items-sentense {
   margin-top: 10px;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
