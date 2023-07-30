@@ -331,7 +331,7 @@ h2 + p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 82px;
-       column-gap: 82px;
+  column-gap: 82px;
   row-gap: 60px;
 }
 .service-content__inner-list {
@@ -409,4 +409,4 @@ h2 + p {
 }
 .recruit-content__inner-list-items-sentense {
   margin-top: 10px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
