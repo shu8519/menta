@@ -333,6 +333,9 @@ h2 + p {
   row-gap: 60px;
 }
 .service-content__inner-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 538px;
   background-color: #ffffff;
 }

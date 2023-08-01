@@ -356,6 +356,9 @@ h2 + p {
     column-gap: 82px;
     row-gap: 60px;
     &-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       width: 538px;
       background-color: #ffffff;
       &-title {
@@ -380,10 +383,6 @@ h2 + p {
     width: 1160px;
     margin: 86px auto 0;
     padding-bottom: 100px;
-    // display: grid;
-    //   grid-template-columns: 1fr 1fr;
-    //   column-gap: 82px;
-    //   row-gap: 60px;
     &-list {
       width: 100%;
       background-color: #ffffff;
