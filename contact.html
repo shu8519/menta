@@ -50,19 +50,39 @@
       </div>
 
       <div class="contact-content__inner">
-        <div class="contact-content__inner-list">
-          <div class="contact-content__inner-list-items">
-            <h3 class="contact-content__inner-list-items-title">広告運用職</h3>
-            <p class="contact-content__inner-list-items-sentense">募集ポストの説明を記入します</p>
-          </div>
+        <form action="">
+          <table class="contact-table">
+            <tr>
+              <th>お名前</th>
+              <td><input type="text" name="名前" class="form-text"></td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td><input type="email" name="メール" class="form-text"></td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td><input type="tel" name="電話" class="form-text"></td>
+            </tr>
+            <tr>
+              <th>お問い合わせ項目</th>
+              <td>
+                <select name="お問い合わせ項目" class="form-select">
+                  <option>選択</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td>
+                <textarea name="問い合わせ" class="form-textarea"></textarea>
+              </td>
+            </tr>
 
-          <div class="contact-content__inner-list-items">
-            <h3 class="contact-content__inner-list-items-title">広告営業職</h3>
-            <p class="contact-content__inner-list-items-sentense">募集ポストの説明を記入します</p>
-          </div>
-        </div>
+          </table>
 
-        <h3 class="contact-content__inner-title">募集要項</h3>
+        </form>
+
       </div>
 
     </section>

@@ -434,4 +434,20 @@ h2 + p {
 .recruit-content__inner-application-list-title {
   width: 184px;
   padding-left: 10px;
+}
+.contact-content {
+  background-color: #f9f9f9;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.contact-content__sub-text {
+  margin: 0 auto;
+  max-width: 790px;
+}
+.contact-content__sentense {
+  padding-top: 60px;
+}
+.contact-content__inner {
+  margin: 60px auto 0;
+  max-width: 752px;
 }/*# sourceMappingURL=style.css.map */

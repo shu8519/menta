@@ -464,3 +464,20 @@ h2 + p {
     }
   }
 }
+
+.contact-content {
+  background-color: #f9f9f9;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  &__sub-text {
+    margin: 0 auto;
+    max-width: 790px;
+  }
+  &__sentense {
+    padding-top: 60px;
+  }
+  &__inner {
+    margin: 60px auto 0;
+    max-width: 752px;
+  }
+}
