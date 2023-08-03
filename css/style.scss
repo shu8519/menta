@@ -193,9 +193,6 @@ h2 + p {
       font-size: 17px;
       font-weight: bold;
       color: #ffffff;
-      // &-item {
-
-      // }
       &-item:not(:last-child) {
         margin-right: 40px;
       }
@@ -240,7 +237,6 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  // transform: translate(-50%,-50%);
   background: no-repeat url(../img/company_title.png) center;
   height: 93px;
   width: 100%;
@@ -252,7 +248,6 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  // transform: translate(-50%,-50%);
   background: no-repeat url(../img/case_title.png) center;
   height: 93px;
   width: 100%;
@@ -263,7 +258,6 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  // transform: translate(-50%,-50%);
   background: no-repeat url(../img/service_title.png) center;
   height: 93px;
   width: 100%;
@@ -274,7 +268,6 @@ h2 + p {
   content: "";
   top: 0;
   left: 0;
-  // transform: translate(-50%,-50%);
   background: no-repeat url(../img/recruit_title.png) center;
   height: 93px;
   width: 100%;
@@ -291,7 +284,6 @@ h2 + p {
   z-index: -1;
 }
 .greeting {
-  // width: 100%;
   &__inner {
     width: 960px;
     margin: 0 auto;
@@ -479,5 +471,7 @@ h2 + p {
   &__inner {
     margin: 60px auto 0;
     max-width: 752px;
+  }
+  &__table {
   }
 }
