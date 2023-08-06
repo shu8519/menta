@@ -326,8 +326,6 @@ h2 + p {
       width: 194px;
       padding-left: 10px;
     }
-    &-list-text {
-    }
   }
 }
 
@@ -380,9 +378,6 @@ h2 + p {
       padding: 30px;
       &-bottom {
         margin-top: 24px;
-      }
-
-      &-title {
       }
       &-text {
         margin-top: 40px;
@@ -471,7 +466,5 @@ h2 + p {
   &__inner {
     margin: 60px auto 0;
     max-width: 752px;
-  }
-  &__table {
   }
 }
