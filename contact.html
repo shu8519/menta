@@ -50,37 +50,42 @@
       </div>
 
       <div class="contact-content__inner">
-        <form action="">
-          <table class="contact-content__table">
-            <tr>
-              <th>お名前</th>
-              <td><input type="text" name="名前" class="form-text"></td>
+        <form action="contact-content-form">
+          <table class="contact-content_table">
+            <tr class="contact-content-list">
+              <th class="contact-content-item">お名前</th>
+              <td class="contact-content-body"><input type="text" name="名前" class="form-text"></td>
             </tr>
-            <tr>
-              <th>メールアドレス</th>
-              <td><input type="email" name="メール" class="form-text"></td>
+            <tr class="contact-content-list">
+              <th class="contact-content-item">メールアドレス</th>
+              <td class="contact-content-body"><input type="email" name="メール" class="form-text"></td>
             </tr>
-            <tr>
-              <th>電話番号</th>
-              <td><input type="tel" name="電話" class="form-text"></td>
+            <tr class="contact-content-list">
+              <th class="contact-content-item">電話番号</th>
+              <td class="contact-content-body"><input type="tel" name="電話" class="form-text"></td>
             </tr>
-            <tr>
-              <th>お問い合わせ項目</th>
-              <td>
+            <tr class="contact-content-list">
+              <th class="contact-content-item">お問い合わせ項目</th>
+              <td class="contact-content-body contact-content-body-select">
                 <select name="お問い合わせ項目" class="form-select">
-                  <option>選択</option>
+                  <option value="">選択</option>
+                  <option value="">費用</option>
+                  <option value="">選択</option>
+                  <option value="">費用</option>
+                  <option value="">選択</option>
+                  <option value="">費用</option>
                 </select>
               </td>
             </tr>
-            <tr>
-              <th>お問い合わせ内容</th>
-              <td>
+            <tr class="contact-content-list">
+              <th class="contact-content-item">お問い合わせ内容</th>
+              <td class="contact-content-body">
                 <textarea name="問い合わせ" class="form-textarea"></textarea>
               </td>
             </tr>
 
           </table>
-
+          <div class="contact-content-btn"><input type="submit" value="送信する"></div>
         </form>
 
       </div>
