@@ -52,36 +52,37 @@
       <div class="contact-content__inner">
         <form action="contact-content-form">
           <table class="contact-content_table">
-            <tr class="contact-content-list">
-              <th class="contact-content-list-item">お名前</th>
-              <td class="contact-content-list-body"><input type="text" name="名前" class="form-text"></td>
+            <tr class="contact-content__list">
+              <th class="contact-content__list-item">お名前</th>
+              <td class="contact-content__list-body"><input type="text" name="名前" class="form-text"></td>
             </tr>
-            <tr class="contact-content-list">
-              <th class="contact-content-list-item">メールアドレス</th>
-              <td class="contact-content-list-body"><input type="email" name="メール" class="form-text"></td>
+            <tr class="contact-content__list">
+              <th class="contact-content__list-item">メールアドレス</th>
+              <td class="contact-content__list-body"><input type="email" name="メール" class="form-text"></td>
             </tr>
-            <tr class="contact-content-list">
-              <th class="contact-content-list-item">電話番号</th>
-              <td class="contact-content-list-body"><input type="tel" name="電話" class="form-text"></td>
+            <tr class="contact-content__list">
+              <th class="contact-content__list-item">電話番号</th>
+              <td class="contact-content__list-body"><input type="tel" name="電話" class="form-text"></td>
             </tr>
-            <tr class="contact-content-list">
-              <th class="contact-content-list-item">お問い合わせ項目</th>
-              <td class="contact-content-list-body contact-content-list-body-select">
+            <tr class="contact-content__list">
+              <th class="contact-content__list-item">お問い合わせ項目</th>
+              <td class="contact-content__list-body contact-content__list-body-select">
                 <select name="お問い合わせ項目" class="form-select">
+                  <option selected disabled>選択してください</option>
                   <option value="">選択</option>
                   <option value="">費用</option>
                 </select>
               </td>
             </tr>
-            <tr class="contact-content-list">
-              <th class="contact-content-list-item">お問い合わせ内容</th>
-              <td class="contact-content-list-body">
+            <tr class="contact-content__list">
+              <th class="contact-content__list-item">お問い合わせ内容</th>
+              <td class="contact-content__list-body">
                 <textarea name="問い合わせ" class="form-textarea"></textarea>
               </td>
             </tr>
 
           </table>
-          <div class="contact-content-btn"><input type="submit" value="送信"></div>
+          <div class="contact-content__btn"><input type="submit" value="送信"></div>
         </form>
 
       </div>
